@@ -1,0 +1,27 @@
+{
+  "name": "x402-gateway",
+  "version": "1.0.0",
+  "description": "The Economic Substrate for Agentic Commerce. A reference implementation for gating content behind USDC payments on Base L2.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "x402",
+    "agentic-commerce",
+    "base",
+    "usdc",
+    "ai-agents",
+    "tresslers-group"
+  ],
+  "author": "Tresslers Group Deep Research Division",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "typescript": "^6.0.3",
+    "viem": "^2.48.11"
+  }
+}
