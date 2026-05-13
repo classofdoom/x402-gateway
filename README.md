@@ -33,7 +33,7 @@ import { handleX402 } from 'x402-gateway';
 export async function GET(request: Request) {
   const config = {
     masterWallet: '0xYourMasterWalletAddress',
-    minimumAmount: '0.50', // 0.50 USDC
+    minimumAmount: process.env.X402_MIN_AMOUNT || '1.00', // Configurable rate
     enforce: process.env.NODE_ENV === 'production',
   };
 
